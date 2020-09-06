@@ -9,7 +9,7 @@ const arr = ["Gangstas love the hood",
     "Popcorn!",
     "Drum n Bass & Hip Hop combined",
     "You love me",
-    `<a href="https://g.co/kgs/7MP7PJ">Graham's number
+    `<a href="https://g.co/kgs/7MP7PJ">Graham's number (tap this)
     </a>`,
     "Building a new thriving economy in Cities Skylines",
     "Finding a 2-for-1 deal at Pick n Pay",
