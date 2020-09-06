@@ -1,0 +1,161 @@
+/* Global Styles */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h4,
+h5 {
+    font-size: 2.8rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    padding: 2rem 6rem;
+    background: #4c6e97;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background: #27394e;
+    border: none;
+}
+
+button:active {
+    background: #27394e;
+    box-shadow: 0 5px #666;
+    transform: translateY(2rem);
+    border: none;
+}
+
+
+
+
+.main-section {
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-section h2 {
+    padding: 4rem;
+}
+
+.main-section button {
+    margin: 4rem;
+}
+
+.main-section p {
+    margin: 4rem;
+    font-style: italic;
+}
+
+footer{
+    min-height: 10vh;
+    text-align: center;
+}
+
+
+
+
+
+.love {
+    background-color: #E7273F;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.love:focus {
+    outline: none;
+}
+
+.love .icon-container {
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid #eee;
+    color: #E7273F;
+    padding: 20px 25px;
+
+}
+
+
+
+.fa-redo {
+    margin-left: 10px;
+}
+
+.heart {
+    position: absolute;
+    color: #E7273F;
+    font-size: 2rem;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    animation: fly 3s linear forwards;
+}
+
+@keyframes fly {
+    to {
+        transform: translate(-50%, -50px);
+    }
+}
