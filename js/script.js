@@ -1,7 +1,9 @@
 const loveLine = document.getElementById('answer');
 
-const arr = ["Gangstas in the hood",
+const arr = ["Gangstas love the hood",
     "Calories in X&O",
+    "Eminem hates Machine Gun Kelly",
+    "The number of beats in a DNB song",
     "Anything in my life",
     "I did yesterday",
     "Popcorn!",
